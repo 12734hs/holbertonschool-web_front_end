@@ -18,7 +18,7 @@
   --line-height-base: 1.5;
   --line-height-big: 1.8;
   --section-header-align: center;
-  --section-tagline-perform: uppercase;
+  --section-tagline-transform: uppercase;
 }
 
 html {
@@ -52,7 +52,7 @@ a {
   text-align: var(--section-header-align);
   font-family: var(--font-family-title);
   font-weight: var(--font-weight-bold);
-  text-transform: var(--section-tagline-perform);
+  text-transform: var(--section-tagline-transform);
 }
 
 .card-category {
