@@ -50,9 +50,6 @@ a {
 
 .section-header {
   text-align: var(--section-header-align);
-  font-family: var(--font-family-title);
-  font-weight: var(--font-weight-bold);
-  text-transform: var(--section-tagline-transform);
 }
 
 .card-category {
@@ -60,5 +57,8 @@ a {
 }
 
 .section-tagline {
-  color: var(--color-primary)
+  color: var(--color-primary);
+  font-family: var(--font-family-title);
+  font-weight: var(--font-weight-bold);
+  text-transform: var(--section-tagline-transform);
 }
