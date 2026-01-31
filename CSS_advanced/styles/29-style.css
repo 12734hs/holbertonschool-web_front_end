@@ -574,10 +574,11 @@ a:active {
 }
 
 .nav .nav-link::before {
-  display: '';
+  display: "";
   position: absolute;
-  background-position: 0 0;
-  color: var(--color-white);
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-white);
   width: 0;
   height: 0.2rem;
 }
@@ -588,7 +589,7 @@ a:active {
 
 .nav .nav-link:hover::before {
   background-color: var(--color-primary);
-  width: 100%;
+  width: 1rem;
 }
 
 ul.row {
