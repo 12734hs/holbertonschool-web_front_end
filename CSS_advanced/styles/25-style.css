@@ -393,7 +393,7 @@ template {
   --button-font-size: var(--font-size-large);
   --button-hover-color: var(--color-white);
   --button-hover-text-decoration: none;
-  --button-gover-background: var(--color-primary);
+  --button-hover-background: var(--color-primary);
 }
 
 *,
@@ -611,4 +611,3 @@ ul.row {
   --button-color: var(--color-white);
   background: var(--color-black);
 }
-
