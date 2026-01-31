@@ -406,7 +406,7 @@ body {
   line-height: var(--line-height-base)
 }
 
-header [data-section-theme] {
+header [data-section-theme="dark"] {
   background-color: var(--color-black)
 }
 
