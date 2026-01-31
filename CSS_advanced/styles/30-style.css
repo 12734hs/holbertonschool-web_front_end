@@ -678,7 +678,7 @@ ul.row {
   overflow: hidden;
 }
 
-.card-word .card-image img {
+.card-work .card-image img {
   height: 30rem;
   width: 100%;
   --object-fit: cover;
@@ -693,7 +693,7 @@ ul.row {
   z-index: 1;
 }
 
-.card-work .card-inner:hover {
+.card-work:hover .card-inner {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
@@ -710,6 +710,7 @@ ul.row {
   text-decoration: none;
   height: 100%;
   position: relative;
+  padding-top: 45%;
 }
 
 .card-work .card-title a::after {
