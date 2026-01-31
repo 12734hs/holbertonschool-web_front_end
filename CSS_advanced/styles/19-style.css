@@ -475,7 +475,7 @@ a:active {
   font-family: var(--font-family-title);
   font-weight: var(--font-weight-bold);
   text-transform: var(--section-tagline-transform);
-  margine: var(--section-tagline-margin);
+  margin: var(--section-tagline-margin);
 }
 
 .container {
@@ -545,3 +545,4 @@ ul.row {
 ul.footer {
   text-align: right;
 }
+
