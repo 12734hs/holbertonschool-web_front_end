@@ -574,7 +574,8 @@ a:active {
 }
 
 .nav .nav-link::before {
-  display: "";
+  content: '';
+  display: block;
   padding: 0.5rem 1rem;
   position: absolute;
   bottom: 0;
